@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.2,
+  "group": "citrine",
+  "ingredient": {
+    "item": "stupididea:citrine_ore"
+  },
+  "result": "stupididea:citrine"
+}

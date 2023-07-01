@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "stupididea",
+	"version": "${version}",
+	"name": "StupidIdea",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"KokoDevs"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/stupididea/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "me.kokodevs.stupididea.StupidIdea"
+		],
+		"client": [
+			"me.kokodevs.stupididea.StupidIdeaClient"
+		],
+		"fabric-datagen": [
+			"me.kokodevs.stupididea.StupidIdeaDataGenerator"
+		]
+	},
+	"mixins": [
+		"stupididea.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
